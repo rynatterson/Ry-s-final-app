@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F60738C2A09541A0024B225 /* Ry_Cool_APp_Computer_scienceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60738B2A09541A0024B225 /* Ry_Cool_APp_Computer_scienceApp.swift */; };
+		5F60738E2A09541A0024B225 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F60738D2A09541A0024B225 /* ContentView.swift */; };
+		5F6073902A09541B0024B225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F60738F2A09541B0024B225 /* Assets.xcassets */; };
+		5F6073932A09541B0024B225 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6073922A09541B0024B225 /* Preview Assets.xcassets */; };
+		5F696FC32A1BD3A300157F85 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F696FC22A1BD3A300157F85 /* IntroductionView.swift */; };
+		5F696FC52A1BD6A800157F85 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F696FC42A1BD6A800157F85 /* AboutView.swift */; };
+		5FAAFC632A0EA68E008F37D3 /* characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FAAFC622A0EA68E008F37D3 /* characters.swift */; };
+		5FAB15B12A0AB4C50080F81A /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FAB15B02A0AB4C50080F81A /* image.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5F6073882A09541A0024B225 /* Ry Cool APp Computer science.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ry Cool APp Computer science.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F60738B2A09541A0024B225 /* Ry_Cool_APp_Computer_scienceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ry_Cool_APp_Computer_scienceApp.swift; sourceTree = "<group>"; };
+		5F60738D2A09541A0024B225 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F60738F2A09541B0024B225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F6073922A09541B0024B225 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F696FC22A1BD3A300157F85 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		5F696FC42A1BD6A800157F85 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5FAAFC622A0EA68E008F37D3 /* characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = characters.swift; sourceTree = "<group>"; };
+		5FAB15B02A0AB4C50080F81A /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F6073852A09541A0024B225 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F60737F2A09541A0024B225 = {
+			isa = PBXGroup;
+			children = (
+				5F60738A2A09541A0024B225 /* Ry Cool APp Computer science */,
+				5F6073892A09541A0024B225 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F6073892A09541A0024B225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F6073882A09541A0024B225 /* Ry Cool APp Computer science.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F60738A2A09541A0024B225 /* Ry Cool APp Computer science */ = {
+			isa = PBXGroup;
+			children = (
+				5F60738B2A09541A0024B225 /* Ry_Cool_APp_Computer_scienceApp.swift */,
+				5F696FC22A1BD3A300157F85 /* IntroductionView.swift */,
+				5F696FC42A1BD6A800157F85 /* AboutView.swift */,
+				5F60738D2A09541A0024B225 /* ContentView.swift */,
+				5FAAFC622A0EA68E008F37D3 /* characters.swift */,
+				5F60738F2A09541B0024B225 /* Assets.xcassets */,
+				5F6073912A09541B0024B225 /* Preview Content */,
+			);
+			path = "Ry Cool APp Computer science";
+			sourceTree = "<group>";
+		};
+		5F6073912A09541B0024B225 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5FAB15B02A0AB4C50080F81A /* image.jpg */,
+				5F6073922A09541B0024B225 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F6073872A09541A0024B225 /* Ry Cool APp Computer science */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F6073962A09541B0024B225 /* Build configuration list for PBXNativeTarget "Ry Cool APp Computer science" */;
+			buildPhases = (
+				5F6073842A09541A0024B225 /* Sources */,
+				5F6073852A09541A0024B225 /* Frameworks */,
+				5F6073862A09541A0024B225 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ry Cool APp Computer science";
+			productName = "Ry Cool APp Computer science";
+			productReference = 5F6073882A09541A0024B225 /* Ry Cool APp Computer science.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F6073802A09541A0024B225 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					5F6073872A09541A0024B225 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 5F6073832A09541A0024B225 /* Build configuration list for PBXProject "Ry Cool APp Computer science" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F60737F2A09541A0024B225;
+			productRefGroup = 5F6073892A09541A0024B225 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F6073872A09541A0024B225 /* Ry Cool APp Computer science */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F6073862A09541A0024B225 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6073932A09541B0024B225 /* Preview Assets.xcassets in Resources */,
+				5F6073902A09541B0024B225 /* Assets.xcassets in Resources */,
+				5FAB15B12A0AB4C50080F81A /* image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6073842A09541A0024B225 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F60738E2A09541A0024B225 /* ContentView.swift in Sources */,
+				5F60738C2A09541A0024B225 /* Ry_Cool_APp_Computer_scienceApp.swift in Sources */,
+				5F696FC32A1BD3A300157F85 /* IntroductionView.swift in Sources */,
+				5FAAFC632A0EA68E008F37D3 /* characters.swift in Sources */,
+				5F696FC52A1BD6A800157F85 /* AboutView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5F6073942A09541B0024B225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F6073952A09541B0024B225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F6073972A09541B0024B225 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ry Cool APp Computer science/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LML54GN7X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ry-Cool-APp-Computer-science-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Help me use the app!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library for selecting a random photo and guessing the year it was taken";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XRDS.Ry-Cool-APp-Computer-science";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5F6073982A09541B0024B225 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ry Cool APp Computer science/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LML54GN7X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ry-Cool-APp-Computer-science-Info.plist";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Help me use the app!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Allow access to the photo library for selecting a random photo and guessing the year it was taken";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "XRDS.Ry-Cool-APp-Computer-science";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F6073832A09541A0024B225 /* Build configuration list for PBXProject "Ry Cool APp Computer science" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6073942A09541B0024B225 /* Debug */,
+				5F6073952A09541B0024B225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F6073962A09541B0024B225 /* Build configuration list for PBXNativeTarget "Ry Cool APp Computer science" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F6073972A09541B0024B225 /* Debug */,
+				5F6073982A09541B0024B225 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5F6073802A09541A0024B225 /* Project object */;
+}
